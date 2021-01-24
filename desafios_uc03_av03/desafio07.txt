@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+	    int jg1, jg2, soma;
+	    string resultado;
+		
+		Console.WriteLine("[JOGO PAR OU IMPAR] Apos os jogadores informarem um numero cada, a soma de ambos sera verificada se PAR ou IMPAR para definir o ganhador.");
+	    
+		Console.WriteLine("[JOGADOR 01 - PAR] Informe um numero");
+		jg1 = int.Parse(Console.ReadLine());
+		
+		Console.WriteLine("[JOGADOR 02 - IMPAR] Informe um numero");
+		jg2 = int.Parse(Console.ReadLine());
+		
+		soma = jg1+jg2;
+		
+		resultado = ( soma % 2 == 0 ) ? $"{soma} eh par, JOGADOR 01 eh o vencedor!" : $"{soma} eh impar, JOGADOR 02 eh o vencedor!";
+	    
+		Console.WriteLine(resultado);
+    }
+}

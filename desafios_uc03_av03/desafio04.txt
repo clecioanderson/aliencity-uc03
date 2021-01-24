@@ -1,0 +1,15 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+	    double tc,tk;
+	    Console.WriteLine("Informe em Celsius:"); 
+	    tc = double.Parse(Console.ReadLine());
+	    tk = tc + 273.15; 
+	    Console.WriteLine($"{tk} Kelvin");
+    }
+}

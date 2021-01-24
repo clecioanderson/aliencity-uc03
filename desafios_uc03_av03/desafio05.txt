@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+	    int pv, sv, maior;
+	    
+		Console.WriteLine("Informe o primeiro numero inteiro");
+		pv = int.Parse(Console.ReadLine());
+		
+		Console.WriteLine("Informe o segundo numero inteiro"); 
+	    sv = int.Parse(Console.ReadLine());
+		
+		maior = ( pv > sv ) ? pv : sv;
+	    
+		Console.WriteLine($"O numero {maior} eh maior");
+    }
+}

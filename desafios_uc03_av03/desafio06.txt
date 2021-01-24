@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+	    int numero;
+	    string resultado;
+	    
+		Console.WriteLine("Informe o numero");
+		numero = int.Parse(Console.ReadLine());
+		
+		resultado = ( numero % 2 == 0 ) ? $"{numero} eh par" : $"{numero} eh impar";
+	    
+		Console.WriteLine(resultado);
+    }
+}

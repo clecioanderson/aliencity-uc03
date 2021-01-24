@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+		DateTime NowTime = DateTime.Now;
+		int Current_Year = NowTime.Year;
+		int idade, ano_nasc;
+		string nome; 
+
+		Console.WriteLine("Por gentileza, digite seu nome: ");
+		nome = Console.ReadLine(); 
+		Console.WriteLine("Obrigado!");
+		Console.WriteLine("Por gentileza, digite o ano de nascimento: ");
+		ano_nasc = int.Parse(Console.ReadLine()); 
+		idade = Current_Year - ano_nasc;
+		Console.WriteLine("Ola "+nome+" sua idade eh: "+idade+" ano(s)!");     
+    }
+}

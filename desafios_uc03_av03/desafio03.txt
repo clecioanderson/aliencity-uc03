@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+		
+		int idade;
+
+		Console.WriteLine("Por gentileza, digite sua idade: ");
+		idade = int.Parse(Console.ReadLine()); 
+		
+		Console.WriteLine("Voce viveu "+idade*365+" dias ate agora o que equivale a "+idade*365*1440+" horas!");
+    }
+}

@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+        int numero1;
+        int numero2;
+        int resultadoSoma, resultadoSubtracao, resultadoDivisao, resultadoMultiplicacao;
+        
+        numero1 = 10;
+        numero2 = 5;
+        resultadoSoma = numero1 + numero2;
+        resultadoSubtracao = numero1 - numero2;
+        resultadoMultiplicacao = numero1 * numero2;
+        resultadoDivisao = numero1 / numero2;
+        
+        Console.WriteLine(
+            "Resultado Soma: "+resultadoSoma+"\n"+
+            "Resultado Subtracao: "+resultadoSubtracao+"\n"+
+            "Resultado Multiplicacao: "+resultadoMultiplicacao+"\n"+
+            "Resultado Divisao: "+resultadoDivisao
+            );        
+    }
+}
