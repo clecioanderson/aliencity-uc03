@@ -1536,7 +1536,6 @@ GameObject:
   - component: {fileID: 1299186162}
   - component: {fileID: 1299186163}
   - component: {fileID: 1299186161}
-  - component: {fileID: 1299186164}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -1685,21 +1684,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.356244, y: 8.06}
   m_EdgeRadius: 0
---- !u!114 &1299186164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299186157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 616b28402db9f9d498c34ee4c0a69323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: {x: -1, y: 0}
-  Speed: 7
-  JumpForce: 0
 --- !u!1 &1319779005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,12 +2825,12 @@ PrefabInstance:
     - target: {fileID: 114289504185867030, guid: d6e04d58409191947aa8b64bb15a6134,
         type: 3}
       propertyPath: JumpForce
-      value: 60
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 114289504185867030, guid: d6e04d58409191947aa8b64bb15a6134,
         type: 3}
       propertyPath: Speed
-      value: 20
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6e04d58409191947aa8b64bb15a6134, type: 3}
