@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+	    int xjogador, xinimigo, proximidade;
+	    string resultado;
+		
+		Console.WriteLine("Informe a posição X do jogador:");
+	    xjogador = int.Parse(Console.ReadLine());
+	    
+	    Console.WriteLine("Informe a posição X do inimigo:");
+	    xinimigo = int.Parse(Console.ReadLine());
+
+        proximidade = (xjogador > xinimigo) ? xjogador - xinimigo : xinimigo - xjogador;
+	    resultado = (proximidade <= 5) ? "Ataca!" : "Não ataca!";
+	    	    
+		Console.WriteLine($"{resultado}");
+    }
+}

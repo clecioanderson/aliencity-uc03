@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+	    int scorejogador;
+	    string nomejogador;
+		
+		Console.WriteLine("Digite o nome do Jogador:");
+	    
+	    nomejogador = Console.ReadLine();
+	    
+	    Console.WriteLine("Digite a pontuação do Jogador:");
+	    
+	    scorejogador = int.Parse(Console.ReadLine());
+	    
+	    
+		Console.WriteLine($"Parabéns! {nomejogador}, sua pontuação foi de {scorejogador} pontos!");
+    }
+}

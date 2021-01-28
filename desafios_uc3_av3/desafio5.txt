@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+	    int dinheiro, pcitem;
+	    string resultado;
+		
+		Console.WriteLine("Informe o dinheiro disponível:");
+	    dinheiro = int.Parse(Console.ReadLine());
+	    
+	    Console.WriteLine("Informe o preço do item:");
+	    pcitem = int.Parse(Console.ReadLine());
+
+	    resultado = (dinheiro >= pcitem) ? $"É possível comprar o item e {dinheiro/pcitem} unidades podem ser adquiridas!" : "Não é possível comprar o item!";
+	    	    
+		Console.WriteLine($"{resultado}");
+    }
+}

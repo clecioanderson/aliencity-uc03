@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+
+public class Program {
+    
+    public static void Main(){
+	
+	    float duracaomusica;
+		
+		Console.WriteLine("Digite a duração da música em minutos:");
+	    duracaomusica = float.Parse(Console.ReadLine());
+	    	    
+		Console.WriteLine($"WAV {duracaomusica * 10}; MP3 {duracaomusica * 	1.5}; {duracaomusica}MB equivale a {(duracaomusica * 60 / 90):0.0} minutos em formato MP3");
+    }
+}
